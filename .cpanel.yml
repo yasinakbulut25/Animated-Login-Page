@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kodsatir1/test.diyettakibim.com/
+    - /bin/cp -R . $DEPLOYPATH
